@@ -1,0 +1,22 @@
+{
+  "name": "IslamicNotifier",
+  "version": "1.0.0",
+  "description": "Islamic Notification App",
+  "main": "main.js",
+  "build": {
+    "appId": "com.devmoaz.islamicnotifier",
+    "productName": "Islamic Notifier",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^32.0.1",
+    "electron-builder": "^24.3.0"
+  }
+}
